@@ -1,3 +1,24 @@
+
+local plr = game.Players.LocalPlayer
+
+local REAL = plr.PlayerGui.MainUI.Prompts.Templates.Default
+local Created_By = plr.PlayerGui.MainUI.Prompts.Templates.Default:Clone()
+local Created_Sound = game.Workspace.SoundFolder.pass_shop_opened:Clone()
+
+Created_By.Parent = REAL.Parent.Parent
+Created_Sound.Parent = game.Workspace
+
+
+wait()
+Created_By.Visible = true
+Created_By.PromptText.Text = "Created by Evil Dragon#0001 & SlowingDisc#1000"
+Created_Sound:Play()
+
+
+wait(1)
+
+Created_By:Destroy()
+
 local plr = game.Players.LocalPlayer
 
 local REAL = plr.PlayerGui.MainUI.Prompts.Templates.Default
@@ -9,7 +30,7 @@ wait()
 Created_By.Visible = true
 Created_By.PromptText.Text = "Created by Evil Dragon#0001 & SlowingDisc#1000"
 
-wait(4)
+wait(2,5)
 
 Created_By:Destroy()
 
