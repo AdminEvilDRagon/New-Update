@@ -105,18 +105,18 @@ TeleportSection:Button("Airport", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SlowingDisc/EscapePrisonV2/main/airport.lua?token=GHSAT0AAAAAABYDLRJOVBLCEHAOB5QO6UHWYYKITOQ", true))()
 end)
 
-TeleportSection:RobAtm("Airport", function()
+RobAtm:Button("Airport", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SlowingDisc/EscapePrisonV2/main/atmairport.lua?token=GHSAT0AAAAAABYDLRJOWJQFRKPE7RR4EK2IYYKIVPQ", true))()
 end)
 
-TeleportSection:RobAtm("Bank", function()
+RobAtm:Button("Bank", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SlowingDisc/EscapePrisonV2/main/atmbank.lua?token=GHSAT0AAAAAABYDLRJPJQEEJUZHKQ33WEU2YYKIVQA", true))()
 end)
 
-TeleportSection:Credits("Made By", function()
+Credits:Button("Made By", function()
     --Credits Tab
 end)
 
-TeleportSection:Credits("Evil Dragon#0001 & SlowingDisc#1000", function()
+Credits:Button("Evil Dragon#0001 & SlowingDisc#1000", function()
     --Credits Tab
 end)
